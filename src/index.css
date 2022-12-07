@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  background-color: rgb(255, 255, 148);
+}
+
+.wrapper-header ul{
+  background-color:rgb(255, 183, 0);
+    display: flex;
+    margin-left: -2%;
+}
+.wrapper-header ul li{
+  background-color:rgb(235, 179, 39);
+  width: 24%;
+  text-align: center;
+  list-style: none;
+  border-radius: 20px;
+  padding: 0.5%;
+  margin-top: 1%;
+  margin-bottom: -1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: white;
+  font-weight: bold;
+  box-shadow: inset 0 0 0 0 #d653a4;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.wrapper-header ul li:hover{
+  cursor: pointer;
+  background-color: goldenrod;
+  box-shadow: inset 400px 0 0 0 #d653a4;
+}
+#check{
+  text-decoration: none;
+  color: white;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 92%;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0.8%;
+}
+.check{
+  padding-top: 1%;
+  padding-left: 1%;
+  border-radius: 10px;
+}
+
+.card{
+  border: 5px solid yellowgreen;
+  border-radius: 10px;
+  width: 18rem;
+  height: 21rem;
+  
+}
+.card-body{
+overflow: scroll
+}
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 2.5rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #c2c9d2;
+}
+h4{
+  font-size: 120%;
+  font-weight: bold;
+}
+#btn-read{
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(235, 186, 62);
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 1%;
+  margin-top: -8%;
+}
+#btn-read:hover{
+  background-color: #d653a4;
+}
+.spinner-border{
+  margin-left: 45%;
+  margin-top: 15%;
+}
